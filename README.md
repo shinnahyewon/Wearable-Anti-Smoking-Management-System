@@ -8,6 +8,7 @@ Wearable Anti-Smoking Management System
 
 2) 개발 목표
 사용자의 워치에 사용을 목표로 웨어러블 디바이스로 개발하였고, 일정 수준의 가스가 센서에 감지되면 워치에 진동을 통해 경고를 주며 감지 횟수를 카운터 한다. 하루 동안의 사용자의 담배 감지 횟수를 DB에 저장하여 관제센터에 전송하여 하루가 끝났을 때 사용자에게 오늘의 금연 횟수와 금연의 성공 여부를 알려주며 오작동의 우려가 있어 진동 강제 종료 기능을 추가하여 사용자의 금연에 도움을 줄 수 있음을 기대한다.
+
 ■ 시스템 구성!
 
 ![image](https://github.com/shinnahyewon/Wearable-Anti-Smoking-Management-System/assets/161293023/7c1bd7c1-68a7-4db7-9d42-ef914b15a90b)
@@ -15,6 +16,7 @@ Wearable Anti-Smoking Management System
 ![image](https://github.com/shinnahyewon/Wearable-Anti-Smoking-Management-System/assets/161293023/71bad07d-77bd-4414-a66b-abf398da714a)
 
 ■ 주 시스템
+
 1) 가스 감지
  가스 센서에 일정 값 이상 감지되면 OLED에 Cigarette detection!! 출력과 동시에 DC 모터 작동(진동을 대신하여 사용), 평소 시계로도 사용 가능하게 시계 기능 구현.
 
