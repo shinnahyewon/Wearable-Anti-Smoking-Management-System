@@ -1,16 +1,18 @@
 # Wearable-Anti-Smoking-Management-System
 Wearable Anti-Smoking Management System
 
-
 수행기간 : 
+
 2024.04.12.~2024.04.22
 
 담당역할 : 
+
 -(아두이노) 담배연기 감지, 감지에 따른 진동과 OLED 화면에 문구 출력,
  시계 구현과 하루 동안의 감지 횟수를 카운트하여 성공 여부 출력.
 -(STM32F429) 라즈베리파이에서 전송받은 DB를 OLED에 출력.
 
 수행목표 : 
+
 -웨어러블 디바이스
 1) 금연센터에서 나눠주는 금연 팔지에 스마트 기능을 추가
    (담배 연기 감지, 디지털시계, 진동 경고 등)
@@ -20,6 +22,7 @@ Wearable Anti-Smoking Management System
  관리하는 웨어러블 시스템
 
 사용 기술 :
+
 C, 아두이노, 라즈베리파이, STM32F429(STM32CubeIDE), MariaDB, php MyAdmin,
 Ubuntu, Socket, TCP/IP
 
