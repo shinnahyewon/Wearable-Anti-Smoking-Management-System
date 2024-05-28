@@ -9,6 +9,7 @@ Wearable Anti-Smoking Management System
 
 -(아두이노) 담배연기 감지, 감지에 따른 진동과 OLED 화면에 문구 출력,
  시계 구현과 하루 동안의 감지 횟수를 카운트하여 성공 여부 출력.
+ 
 -(STM32F429) 라즈베리파이에서 전송받은 DB를 OLED에 출력.
 
 수행목표 : 
